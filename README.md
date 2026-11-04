@@ -32,6 +32,6 @@ Uninstalling removes the app. The optional `--zap` hook removes only app prefere
 
 ## Maintainers
 
-`Casks/projects-cleaner.rb` comes from the corresponding public release and pins separate arm64/x64 download checksums. For each new release, copy its generated cask and verify installation before publishing the tap update. Never reuse draft development checksums or set `sha256 :no_check`.
+`Casks/projects-cleaner.rb` comes from the corresponding public release and pins separate arm64/x64 download checksums. For each new release, copy its generated cask and verify installation before publishing the tap update. Cask metadata may receive compatibility fixes while preserving the exact installer URLs and checksums. Never reuse draft development checksums or set `sha256 :no_check`.
 
 The source repository remains private. Report app or installation issues in this repository; never post personal paths, tokens, or private project data. Public releases contain installers, checksums, and the installer definition.

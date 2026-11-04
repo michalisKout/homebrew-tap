@@ -10,7 +10,7 @@ cask "projects-cleaner" do
   desc "Local storage cleanup with Git protections and macOS Trash"
   homepage "https://github.com/michalisKout/homebrew-tap"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   app "Projects Cleaner.app"
 
   uninstall quit: "org.projectscleaner.desktop"
