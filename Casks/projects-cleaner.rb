@@ -1,11 +1,11 @@
 cask "projects-cleaner" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.1"
-  sha256 arm: "62638e0ad25150a1a4827d13d34e2ba49ee6ff497bf27a3aa0b4e36b85432c75",
-         intel: "3a13436e7b2220e76faa427da92b1a07af3a1c7a0a217e141e8b00ca14145978"
+  version "0.1.2"
+  sha256 arm: "8ef69963ccbad640529aa2b1c7dc8990f0e2cd7308cf6b66243af8c7f2a95767",
+         intel: "5b4339361fe884e9e69b1363e2c61f0138078aed45374bff1a262cdc3b040b3f"
 
-  url "https://github.com/michalisKout/homebrew-tap/releases/download/v0.1.1/Projects-Cleaner-#{version}-#{arch}.dmg"
+  url "https://github.com/michalisKout/homebrew-tap/releases/download/v0.1.2/Projects-Cleaner-#{version}-#{arch}.dmg"
   name "Projects Cleaner"
   desc "Local storage cleanup with Git protections and macOS Trash"
   homepage "https://github.com/michalisKout/homebrew-tap"
